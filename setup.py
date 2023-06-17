@@ -1,0 +1,38 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='Xongs-SendEmail-Module',
+    version='1.0.0',
+    author='João Carlos C. Zacchello',
+    author_email='joao.zacchello@gmail.com',
+    description='Send AUTOMATIC emails with few requirements, fast and easy.',
+    long_description="SendEmail is a Python module that provides a simple way to send emails using the SMTP protocol. It allows you to send emails with plain text and HTML content.',",
+    url='https://github.com/xongs/sendEmailsWithPython',
+    packages=find_packages(),
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.4',
+        'Programming Language :: Python :: 2.5',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.0',
+        'Programming Language :: Python :: 3.1',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+    ],
+    keywords='send email email module SMTP protocol plain text email HTML email email sending email library Python email email with attachments email authentication email server pip package GitHub repository',
+    python_requires='>=2.4',
+    install_requires=[
+        'email>=3.10.10',
+        'smtplib>=8.8.4',
+    ],
+)
