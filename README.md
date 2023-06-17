@@ -10,9 +10,9 @@ SendEmail is a Python library that provides a simple way to send emails using th
 
 ## Installation
 #You can install SendEmail using pip:
-pip install SendEmail
+"pip install SendEmail"
 
-## Usage
+# Usage
 Here is an example of how to use SendEmail:
 
 ```python
