@@ -9,7 +9,7 @@ SendEmail is a Python library that provides a simple way to send emails using th
 - Handles exceptions that may occur during the email sending process.
 
 ## Installation
-You can install SendEmail using pip:
+#You can install SendEmail using pip:
 pip install SendEmail
 
 ## Usage
