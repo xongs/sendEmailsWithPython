@@ -8,14 +8,14 @@ SendEmail is a Python library that provides a simple way to send emails using th
 - Securely authenticates with the email server.
 - Handles exceptions that may occur during the email sending process.
 
-## Possíveis erros
-Estou trabalhando para melhorar o código, deixando-o mais rápido, mas por enquanto ainda tem alguns erros:
-Quando você loga uma conta ('sender_email' & 'sender_password'), ela tem um limite de aproximadamente 15 usos (15 emails), por conta do limite de emails em um curto período do outlook;
-Preste atenção em erros de digitação no 'sender_email' e 'sender_password', caso ocorrra um erro de digitação, a função não vai conseguir efetuar a autenticação/login;
-Caso nenhum dos erros acima se encaixe no seu problema, pode ser por conta do servidor do outlook.
+## Possible errors
+I'm working to improve the code, making it faster, but for now, there are still some errors:
+When you log in with an account ('sender_email' & 'sender_password'), it has a limit of approximately 15 uses (15 emails) due to the email limit in a short period on Outlook;
+Pay attention to typing errors in 'sender_email' and 'sender_password'; if there is a typing error, the function won't be able to authenticate/login;
+If none of the above errors apply to your problem, it may be due to the Outlook server
 
 ## Futuras melhoras:
-Caso não queira usar sua conta do outlook, estou trabalhando para que seja possível criar um "tempmail" com o user que você quiser, isso dentro da função.
+If you don't want to use your Outlook account, I'm working on making it possible to create a "tempmail" with the username of your choice within the function.
 
 ## Usage
 Here is an example of how to use SendEmail:
